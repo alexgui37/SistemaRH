@@ -11,8 +11,9 @@ public class Candidato extends Pessoa{
 		return novoFunc;
 	}
 	@Override
-	public void setStatus(String status) {
+	public String MudarStatus(String status) {
 		// TODO Auto-generated method stub
+		return "";
 		
 	}
 

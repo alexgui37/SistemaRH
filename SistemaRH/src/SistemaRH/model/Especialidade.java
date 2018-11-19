@@ -11,4 +11,8 @@ public class Especialidade {
 	private int qtd_nomeados;
 	private int qtd_exonerados;
 	private int cand_restantes;
+	
+	public void equals() {
+		
+	}
 }
