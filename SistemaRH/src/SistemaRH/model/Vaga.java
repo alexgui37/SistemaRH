@@ -5,7 +5,15 @@ public class Vaga {
 	private String status_vaga;
 	private String num_processo_conc;
 	private Especialidade vaga_espec;
+	private Historico_Vaga hist;
 	
+	public Vaga() {
+		this.status_vaga = "Desocupada";
+		hist = new Historico_Vaga(this);
+	}
+	public String getStatus() {
+		return this.status_vaga;
+	}
 	public void setStatus(String status) {
 		this.status_vaga = status;
 	}
@@ -19,5 +27,8 @@ public class Vaga {
 
 	public void setVaga_espec(Especialidade vaga_espec) {
 		this.vaga_espec = vaga_espec;
+	}
+	public void setHistorico(Historico_Vaga hist) {
+		this.hist = hist;
 	}
 }

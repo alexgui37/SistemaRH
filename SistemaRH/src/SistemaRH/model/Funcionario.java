@@ -1,5 +1,4 @@
 package SistemaRH.model;
-
 import java.sql.Date;
 
 public class Funcionario extends Pessoa{
@@ -31,3 +30,4 @@ public class Funcionario extends Pessoa{
 	}
 
 }
+
