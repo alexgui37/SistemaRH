@@ -11,7 +11,9 @@ public class Historico_Vaga {
 		this.candidatos_hist = new Stack<Candidato>();
 		status_vaga.push(v.getStatus());
 	}
-	
+	public void atualiza_historico(Candidato c) {
+		
+	}
 	public void exibeHistorico() {
 		
 	}
